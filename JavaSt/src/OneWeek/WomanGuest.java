@@ -5,7 +5,7 @@ public class ManGuest implements Guest{
     private String name ;
     @Override
     public void greeting() {
-        System.out.println("안녕하세요 남자인 저의 이름은 " + this.name + "입니다.");
+        System.out.println("안녕하세요 저의 이름은 " + this.name + "입니다.");
     }
 
     @Override
