@@ -2,6 +2,7 @@ package OneWeek;
 
 public class Cashier {
     private int price;
+    private int number;
 
 
     public int getPrice() {
