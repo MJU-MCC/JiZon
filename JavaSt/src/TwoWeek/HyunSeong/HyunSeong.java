@@ -13,5 +13,7 @@ public class HyunSeong {
 
         duzzim.takeBob(10000);
 
+        System.out.println("Restaurant 의 공깃밥 가격 필드 직접 꺼내기 = "+Restaurant.GonggiBob);
+
     }
 }
