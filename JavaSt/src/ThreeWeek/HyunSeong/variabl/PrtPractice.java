@@ -12,5 +12,8 @@ public class PrtPractice {
         System.out.printf("%5d %n", number);//5칸 만들어서 우측 정렬
         System.out.printf("%-5d %n", number);//5칸 만들어서 좌측 정렬
         System.out.printf("%05d %n", number);//5칸 만들어서 좌측 정렬하고 0으로 채우기
+
+        System.out.println("Git");
+
     }
 }
