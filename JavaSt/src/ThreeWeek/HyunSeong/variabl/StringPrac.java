@@ -2,7 +2,6 @@ package ThreeWeek.HyunSeong.variabl;
 
 public class StringPrac {
     public static void main(String[] args) {
-
         String str1 = "kim";
         String str2 = "kim";
         System.out.println("System.identityHashCode(str1) = " + System.identityHashCode(str1));
@@ -21,4 +20,6 @@ public class StringPrac {
         //레퍼런스 참고 : https://velog.io/@jaden_94/String-Class
 
     }
+
+
 }
