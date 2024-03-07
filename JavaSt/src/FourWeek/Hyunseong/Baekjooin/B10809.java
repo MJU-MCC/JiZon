@@ -14,9 +14,18 @@ public class B10809 {
             arr[i] = -1;
         }
         for(int j=0; j<str.length(); j++){
-            int num = (str.charAt(j) - 'a');
-            System.out.println("num = " + num);
+            //(int)를 안써도 되는 이유?
+            int index =(str.charAt(j) - 'a');
+            if(arr[index] != -1)
+                continue;
+            arr[index] = j;
         }
+
+        StringBuilder sb = new StringBuilder();
+        for(int x : arr){
+            sb.append(x + " ");
+        }
+        System.out.println(sb);
 
 
     }
