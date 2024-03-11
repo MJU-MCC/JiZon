@@ -1,4 +1,4 @@
-package TwoWeek.JooYoung;
+package TwoWeek.JooYeong;
 
 public class Hello {
     public static void main(String[] args){
