@@ -9,7 +9,7 @@ public class B2675 {
         int num = Integer.parseInt(br.readLine());
 
         for(int i=0; i<num; i++){
-            StringTokenizer st = new StringTokenizer();
+          //  StringTokenizer st = new StringTokenizer();
         }
     }
 }
