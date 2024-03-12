@@ -1,3 +1,5 @@
+package TwoWeek.JongSeok;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
