@@ -1,4 +1,4 @@
-package Week2;
+package TwoWeek.JongSeok;
 
 public class Variable {
 
