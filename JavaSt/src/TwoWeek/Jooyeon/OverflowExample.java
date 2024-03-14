@@ -24,8 +24,11 @@ public class OverflowExample {
         System.out.println("Before overflow: " + num1);
         num1++; // 오버플로우 발생
         System.out.println("After overflow: " + num1); // 값이 -128로 wrap-around됨
+        num1++;
+        System.out.println("After overflow+1: " + num1); // 값이 -127이 된다.
 
-        // 부호없는 정수형의 오버플로우 예시
+
+        // 부호있는 정수형의 오버플로우 예시
         int num2 = 2147483647; // 32비트 부호 있는 정수의 최대값
         System.out.println("Before overflow: " + num2);
         num2++; // 오버플로우 발생
