@@ -1,5 +1,3 @@
-git pull
-git push
 	
 
 package TwoWeek.JongSeok;
