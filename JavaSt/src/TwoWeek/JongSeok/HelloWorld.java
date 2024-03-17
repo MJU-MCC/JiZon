@@ -1,3 +1,6 @@
+git pull
+	
+
 package TwoWeek.JongSeok;
 
 public class HelloWorld {
