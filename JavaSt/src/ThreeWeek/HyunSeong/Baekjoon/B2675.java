@@ -1,4 +1,4 @@
-package ThreeWeek.HyunSeon;
+package ThreeWeek.HyunSeong.Baekjoon;
 
 import java.io.*;
 import java.util.*;
