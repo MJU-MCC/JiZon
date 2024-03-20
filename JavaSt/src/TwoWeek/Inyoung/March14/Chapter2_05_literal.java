@@ -23,6 +23,5 @@ public class Chapter2_05_literal {
         String name = "Java";
         // 하지만 원래 String은 클래스이므로 객체를 생성해야함
         String name2 = new String("Java");
-
     }
 }
