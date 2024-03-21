@@ -3,9 +3,7 @@ import java.util.*;
 public class Switchcase_Calculation {
     public static void main(String[] args) {
 
-
-
-
+        final int ONE = 7; // 상수
         Scanner sc = new Scanner(System.in);
 
         System.out.println("두 수를 입력하세요: ");
@@ -25,6 +23,8 @@ public class Switchcase_Calculation {
             case 1: // case문의 값은 정수 상수만 가능하며, 중복되지 않아야 한다.
                 System.out.println("두 수의 합: " + (num1 + num2));
                 break; //break문을 통해 다음 case를 수행하지 않도록 해준다.
+
+            case ONE:
             case 2:
                 System.out.println("두 수의 차: " + (num1 - num2));
                 break;
