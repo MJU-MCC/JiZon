@@ -15,18 +15,18 @@ public class Star_2 {
 
             for (int i = z; i <star; i++) {
 
-                System.out.println(" ");
+                System.out.print(" ");
 
             }
 
             for (int j = 0 ; j < 2*z-1 ; j++) {
 
-                System.out.println("*");
+                System.out.print("*");
 
 
             }
 
-
+            System.out.println();
 
 
         }
