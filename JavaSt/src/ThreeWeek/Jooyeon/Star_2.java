@@ -1,4 +1,4 @@
-package TwoWeek.Jooyeon;
+package ThreeWeek.Jooyeon;
 
 import java.util.*;
 public class Star_2 {

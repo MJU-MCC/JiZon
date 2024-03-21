@@ -1,4 +1,4 @@
-package TwoWeek.Jooyeon;
+package ThreeWeek.Jooyeon;
 
 public class OperatorExample {
     public static void main(String[] args) {
