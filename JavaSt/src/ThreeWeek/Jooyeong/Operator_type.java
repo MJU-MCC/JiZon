@@ -1,6 +1,5 @@
 package ThreeWeek.Jooyeong;
-class Animal {}                 // instanceof 연산자의 사용방법 / 부모 클래스
-class Dog extends Animal {}     // Animal 클래스를 상속받는 Dog 클래스
+    // Animal 클래스를 상속받는 Dog 클래스
 
 public class Operator_type {
     public static void main(String[] args) {
@@ -34,13 +33,6 @@ public class Operator_type {
         // >>연산은 오른쪽으로 이동
 
 
-        Animal a = new Animal();
-        Dog d = new Dog();
-        
-        System.out.println(a instanceof Animal);  // true, a는 Animal의 인스턴스입니다.
-        System.out.println(d instanceof Dog);     // true, d는 Dog의 인스턴스입니다.
-        System.out.println(d instanceof Animal);  // true, d는 Animal을 상속받으므로 Animal의 인스턴스이기도 합니다.
-        System.out.println(a instanceof Dog);     // false, a는 Dog의 인스턴스가 아닙니다.
 
     }
 }

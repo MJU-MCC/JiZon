@@ -1,5 +1,6 @@
 package ThreeWeek.Jooyeong;
-class Animal {}                 //Animal 클래스 정의
+
+class Animal {}              //Animal 클래스 정의
 class Dog extends Animal {} //Dog 클래스, Animal 클래스 상속
 class Cat extends Animal {} //Cat 클래스, Animal 클래스 상속
 
@@ -18,7 +19,7 @@ public class instance_of {
         System.out.println("myCat는 Dog의 인스턴스입니까? " + (myCat instanceof Dog)); // false
         System.out.println("myCat는 Animal의 인스턴스입니까? " + (myCat instanceof Animal)); // true
         
-   
+
         // null에 대한 instanceof 테스트
         System.out.println("null은 Object의 인스턴스입니까? " + (null instanceof Object)); // false
         //Object 클래스는 java에 모든 클래스의 최상위 클래스
