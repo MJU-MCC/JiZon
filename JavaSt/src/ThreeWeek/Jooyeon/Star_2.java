@@ -25,7 +25,7 @@ public class Star_2 {
 
 
             }
-            System.out.println();
+
 
 
 
