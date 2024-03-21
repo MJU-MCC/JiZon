@@ -7,6 +7,7 @@ public class NoNameClass {
             @Override
             public void printB() {
 
+
             }
 
             @Override
