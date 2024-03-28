@@ -1,4 +1,4 @@
-package ThreeWeek.JongSeok.Chapter4;
+ package ThreeWeek.JongSeok.Chapter4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
