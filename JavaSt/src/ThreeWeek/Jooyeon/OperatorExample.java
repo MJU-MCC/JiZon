@@ -17,7 +17,7 @@ public class OperatorExample {
         //char c2 = c1+1; //컴파일 에러 발생
         char c2 = 'd' + 1; /// 컴파일 에러 없음
 
-        System.out.println("c2의 값: " +c2);
+      //  System.out.println("c2의 값: " +c2);
 
 
         /*
