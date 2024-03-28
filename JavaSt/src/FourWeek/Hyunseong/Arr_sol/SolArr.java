@@ -16,5 +16,6 @@ public class SolArr {
         char배열은 문자열로 출력이 된다.
         그러나 나머지 int,String, 기타 배열은 객체로 생성되기 때문에 객체 주소가 나오게 된다.
          */
+        
     }
 }
