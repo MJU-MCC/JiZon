@@ -14,7 +14,7 @@ public class test {
             for(int j=0; j<=i; j++){
                 if(j<star){
                     System.out.printf(" ");
-                } else if() {
+                } else{
                     System.out.printf("*");
                 }
             }
