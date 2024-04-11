@@ -6,7 +6,7 @@ public class throw3 {
     }
 
     static void method1() throws Exception {
-//        method2 md2 = new method2();
+        //method2 md2 = new method2();
         method2();
     }
     
