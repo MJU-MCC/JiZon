@@ -36,10 +36,7 @@ public class InClass {
         InClass.StaticClass sa3 = new InClass.StaticClass(); //스태틱 내부 클래스는 외부클래스의 인스턴스를 먼저 생성하지 않아도 괜찮다
         System.out.println("sa3.a3 : " + sa3.a3);
 
-
-
        first.Method();
-
 
     }
 }
