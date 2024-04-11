@@ -2,7 +2,7 @@ package SixWeek.juyoung;
 
 public class NullpointExample {
 
-    //발표1
+    //참조에러 (NULL값 참조)
     
     public static void main(String[] args) {
         // null 값을 가지는 객체 참조 선언
@@ -16,6 +16,6 @@ public class NullpointExample {
             System.out.println("text가 null이어서 길이를 구할 수 없습니다.");
         }
 
-        System.out.println("프로그램 실행이 계속됩니다.");
+        System.out.println("프로그램 실행이 종료됩니다.");
     }
 }

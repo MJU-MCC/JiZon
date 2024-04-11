@@ -3,12 +3,12 @@ package SixWeek.juyoung;
 import java.util.ArrayList;
 import java.util.List;
 
-//발표3 
+//메모리 부족
 
 public class OutofExpection {
     public static void main(String[] args) {
         try {
-            // 대량의 객체를 저장하기 위한 List 생성
+            // 대량의 객체를 저장하기 위한 List 생성(Object 타입)
             List<Object> list = new ArrayList<>();
             
             // 무한 루프를 돌면서 계속해서 객체를 생성하여 List에 추가합니다.
@@ -23,7 +23,7 @@ public class OutofExpection {
             // 하지만, 실제로는 여기서 복구가 어려울 수 있습니다.
         }
         
-        System.out.println("프로그램 실행이 계속됩니다. 하지만 안정적인 상태인지는 불확실합니다.");
+        System.out.println("프로그램 실행이 종료됩니다.");
     }
 }
 
