@@ -33,39 +33,6 @@ public class CafeProgram {
         Scanner scanner = new Scanner(System.in);
         List<Order> orders = new ArrayList<>();
 
-       /* while (true) {
-            try {
-                System.out.print("주문할 음료의 번호를 선택하세요 (종료하려면 -1 입력): ");
-                int choice = Integer.parseInt(scanner.nextLine()); // 개행 문자 제거
-                if (choice == -1) {
-                    break;
-                }
-                int menuSize = beverages.size();
-                if (choice < 1 || choice > menuSize) {
-                    throw new IllegalArgumentException("잘못된 번호를 입력하셨습니다. 1부터 " + menuSize + "까지의 번호를 입력해주세요.");
-                }
-                System.out.print("주문할 잔 수를 입력하세요: ");
-                int quantity = Integer.parseInt(scanner.nextLine()); // 개행 문자 제거
-                if (quantity <= 0) {
-                    if (quantity < 0) {
-                        System.out.println("잘못된 수량을 입력하셨습니다. 0보다 큰 수량을 입력해주세요.");
-                    } else {
-                        System.out.println("주문할 수량은 1 이상이어야 합니다.");
-                    }
-                    continue;
-                }
-                Beverage selectedBeverage = beverages.get(choice - 1);
-                Order order = new Order(selectedBeverage, quantity);
-                orders.add(order);
-            } catch (NumberFormatException e) {
-                System.out.println("숫자를 입력하세요.");
-            } catch (IllegalArgumentException e) {
-                System.out.println(e.getMessage());
-            }
-        }
-
-        */
-
         while (true) {
             System.out.print("주문할 음료의 번호를 선택하세요 (종료하려면 -1 입력): ");
             int choice = scanner.nextInt();
