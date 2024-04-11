@@ -16,7 +16,7 @@ public class Report {
         CStudy Cfirstweek = new CStudy("C언어 2팀", 6);
         System.out.println(Cfirstweek.introduce());
         System.out.println("CStudy 이번 주 활동 내용: " + Cfirstweek.thisweek());
-        System.out.println("CStudy 다음 주 활동 내용: " + Cfirstweek.nextweek());
+        System.out.println("CStudy 다음 주 활동 계획: " + Cfirstweek.nextweek());
         System.out.println();
 
         JavaStudy Jfirstweek = new JavaStudy("자바 0팀", 7);

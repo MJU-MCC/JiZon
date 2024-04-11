@@ -7,14 +7,16 @@ public abstract class MCCStudy {
     protected String Study;
     protected int StudyMember;
 
-    public MCCStudy(String Chairman, int Member, String Study, int StudyMember){
-        this.Chairman = Chairman;
-        this.Member = Member;
+    public MCCStudy(String Study, int StudyMember){
+//        this.Chairman = Chairman;
+//        this.Member = Member;
         this.Study = Study;
         this.StudyMember = StudyMember;
     }
 
-    public abstract String introduce();
+    public String introduce() {
+        return "안녕하세요 저희는 " + this.Study + "입니다.\n" + "참석자 수는 " + this.StudyMember + "입니다.";
+    }
 
     public abstract String thisweek();
 
