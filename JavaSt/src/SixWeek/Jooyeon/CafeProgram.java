@@ -5,9 +5,11 @@ import java.util.*;
 public class CafeProgram {
     public static void main(String[] args) {
         // 메뉴 설정
-        Menu menu = new Menu();
+        Menu menu = new Menu(); //menu 객체 설정
+
+        // 커피와 주스 메뉴를 추가합니다.
         menu.addBeverage(new Coffee("아메리카노", 3000)); // 음료 이름과 가격을 가진 Coffee 객체를 생성하고, 그 객체를 메뉴에 추가
-        menu.addBeverage(new Coffee("카페라떼", 3500));
+        menu.addBeverage(new Coffee("카페라떼", 3500)); // "카페라떼"라는 이름과 3500원이라는 가격을 가진 Coffee 객체를 생성하고, 이를 menu에 추가합니다.
         menu.addBeverage(new Coffee("카페모카", 4000));
         menu.addBeverage(new Coffee("카푸치노", 3500));
         menu.addBeverage(new Coffee("카라멜 마끼아또", 4000));
@@ -24,10 +26,11 @@ public class CafeProgram {
 
         // 메뉴 출력
         System.out.println("===== 메뉴 =====");
-        List<Beverage> beverages = menu.getBeverages();
+        List<Beverage> beverages = menu.getBeverages(); //menu 객체의 음료 리스트를 beverages 리스트에 저장
+
         for (int i = 0; i < beverages.size(); i++) {
             System.out.println((i + 1) + ". " + beverages.get(i).getName() + " - " + beverages.get(i).getPrice() + "원");
-        }
+        }                                       // get(i) 메소드 - 리스트 인터페이스 내의 있는 메소드로 index를 반환한다.
 
         // 주문 생성
         Scanner scanner = new Scanner(System.in);
@@ -68,7 +71,7 @@ public class CafeProgram {
 
         while (true) {
             System.out.print("주문할 음료의 번호를 선택하세요 (종료하려면 -1 입력): ");
-            int choice = scanner.nextInt();
+            int choice = scanner.nextInt(); // 선택한 음료 번호를 입력받는다.
             if (choice == -1) {
                 break;
             }
@@ -86,22 +89,22 @@ public class CafeProgram {
                 quantity = Integer.parseInt(scanner.nextLine());
             }
             Beverage selectedBeverage = beverages.get(choice - 1);
-            Order order = new Order(selectedBeverage, quantity);
-            orders.add(order);
+            Order order = new Order(selectedBeverage, quantity); // 주문 객체 생성
+            orders.add(order); // 주문 리스트에 주문 추가
         }
 
 
-        scanner.close();
+        scanner.close(); // Scanner 닫는다.
 
         // 주문 처리
         for (Order order : orders) {
-            employee.takeOrder(customer, order);
+            employee.takeOrder(customer, order); // 직원이 주문을 받아 처리한다.
         }
 
         // 주문 금액 계산
         double totalPrice = 0;
         for (Order order : orders) {
-            totalPrice += order.calculateTotalPrice();
+            totalPrice += order.calculateTotalPrice(); // 주문 총액을 계산한다.
         }
         System.out.println("주문 총액: " + totalPrice + "원");
     }
