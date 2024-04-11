@@ -23,6 +23,7 @@ class Point3D1 extends Point1 {
 public class super_test {
     public static void main(String[] args) {
         Point3D1 p = new Point3D1(1, 2, 3);
+
         System.out.println("x=" + p.x + ",y=" + p.y + ",z=" + p.z);
     }
 }
