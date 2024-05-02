@@ -25,7 +25,6 @@ public class Song { // 노래목록
         for (int i = array.length - 1; i > 0; i--) {
             // 0에서 i까지의 임의의 인덱스를 선택
             int index = rand.nextInt(i + 1);
-
             // 현재 인덱스와 랜덤하게 선택된 인덱스의 요소를 교환
             Object temp = array[i];
             array[i] = array[index];

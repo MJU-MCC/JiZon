@@ -11,6 +11,8 @@ import java.util.Scanner;
 //4. 노래 검색 기능
 //5. 볼륨 조절 기능
 //6. 재생목록 반복/셔플
+/// Test
+// 플레이리스트를 ArrayList로 해보는걸로
  public class MusicPlayer {
     private static boolean playing = false; // false면 정지, true이면 재생중, 기본값 정지
 
