@@ -1,4 +1,4 @@
-package SixWeek.juyoung;
+package EightWeek.Hyunseong;
 
 public class NullpointExample {
 

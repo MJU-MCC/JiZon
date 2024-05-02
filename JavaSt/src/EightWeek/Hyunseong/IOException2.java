@@ -1,4 +1,4 @@
-package SixWeek.juyoung;
+package EightWeek.Hyunseong;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
