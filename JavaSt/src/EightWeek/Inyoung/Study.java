@@ -6,7 +6,8 @@ public class Study {
         StringBuilder stringBuilder = new StringBuilder();
 
         // append()를 통해 문자열 연결
-        stringBuilder.append("안").append("녕");
+        stringBuilder.append("안")
+        .append("녕");
         // toString()을 통해 문자열 변수에 할당
         String str = stringBuilder.toString();
 
