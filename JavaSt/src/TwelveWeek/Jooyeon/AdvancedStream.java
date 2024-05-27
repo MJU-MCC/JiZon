@@ -38,7 +38,7 @@ public class AdvancedStream {
                         Collectors.averagingDouble(Employee::getSalary) // 연봉을 추출하여 평균을 계산
                 ));
 
-        ㅎ// 부서별 최고 연봉자를 찾기 위한 코드
+        // 부서별 최고 연봉자를 찾기 위한 코드
         Map<String, Employee> highestPaidByDept = filteredEmployees.stream()
                 // 스트림의 각 요소를 부서별로 그룹화
                 .collect(Collectors.groupingBy(
