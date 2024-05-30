@@ -2,6 +2,7 @@ package NineWeek.Jongseok;
 import java.util.*;
 
 public class Bingo {
+
     public static void main(String[] args) {
         // 중복을 허용하지 않는 set 생성
         HashSet set = new HashSet();
