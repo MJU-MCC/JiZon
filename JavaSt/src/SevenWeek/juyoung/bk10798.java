@@ -1,3 +1,4 @@
+/*
 package SevenWeek.juyoung;
 
 import java.util.Scanner;
@@ -28,3 +29,4 @@ public class bk10798 {
         }     
     }
 
+*/

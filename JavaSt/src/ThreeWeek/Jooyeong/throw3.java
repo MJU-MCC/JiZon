@@ -1,3 +1,4 @@
+/*
 package ThreeWeek.Jooyeong;
 
 public class throw3 {
@@ -15,4 +16,4 @@ public class throw3 {
     }
 
 
-}
+}*/
